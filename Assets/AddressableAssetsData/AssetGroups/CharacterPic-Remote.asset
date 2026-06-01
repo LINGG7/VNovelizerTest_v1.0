@@ -1,0 +1,275 @@
+﻿%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: CharacterPic-Remote
+  m_EditorClassIdentifier: 
+  m_GroupName: CharacterPic-Remote
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3e11683bc93915a4b8c0ab577f421406
+  m_SerializeEntries:
+  - m_GUID: 0addf4544e391a54ba21b2d56985863d
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u4E3E\u67AA"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dd10b443b5f8db4c9899bcf2258fbed
+    m_Address: "VNovelizerRes/CharactersPic/\u7D22\u83F2\u4E9A"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22ab77fe3f18bfa428027350ce4ba3b0
+    m_Address: "VNovelizerRes/CharactersPic/\u6559\u5B98"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b2c108cf554d0b4cb5b1f5831260b9d
+    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/\u515C\u5E3D"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d5fd58e6165c1148b8877240bf3c0a6
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u4E0D\u77E5\u540D\u8868\u60C51"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ea7765ab709a2a469a7840e342c8613
+    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/\u65E0"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33e0fb6cd2092a3489464019c7814a9e
+    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/hurt"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 358ed20ec9742ac47bd5f52d34bf129a
+    m_Address: "VNovelizerRes/CharactersPic/\u76D6\u66FC\u9634"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37a0ad6146110694e9489b4d5ab4d6b8
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u751F\u6C14"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 408725c4d23a0d24588964f1188a337b
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u6D41\u8840"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48a4780f265fb114180a84405e107436
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u7591\u60D1"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c1c9b635b1f85f41ac495267812fa64
+    m_Address: "VNovelizerRes/CharactersPic/\u827E\u7C73\u8389/child"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u827E\u7C73\u8389"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cae055109dc9aa4dbec56928cfd2726
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u5ACC\u5F03"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5232d137a3979bd4fa68079af6bddca7
+    m_Address: "VNovelizerRes/CharactersPic/\u7D22\u83F2\u4E9A\u8868\u60C5/\u526A\u5F71"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u7D22\u83F2\u4E9A\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5aa33c853d9cf9544b4110da53d9c5fc
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u83B1\u8499\u65AF\u4E0A\u6821\u8868\u60C5/\u526A\u5F71"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u514B\u83B1\u8499\u65AF\u4E0A\u6821\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b5dafe3a2afccd44bafc9584e610a4d
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u574F\u7B11"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5db840cb4ecb4574f8968b1b0c1cc846
+    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/\u7EF7\u5E26"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fe119f69f1166d4ea0b8abf30902f2a
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u7EF7\u5E26"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60f1fcbc2c9f8f542a5f3f597550caf8
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u751F\u6C14"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 651d2b27cf8352547a443a7d00cdb351
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5206\u6790"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a860a41684ce8246bef337f926845ab
+    m_Address: "VNovelizerRes/CharactersPic/\u4E9A\u5F53"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f959650899883f4fa17079bd21d328a
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5FE7\u8651"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7467e4584c755b74c92cea7a47e459c6
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u5BB3\u6015"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77205b0590238064a8f57117ff0b9a83
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u4E3E\u67AA"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c39ae2b0c75e174bb2c35e10dbfdf3b
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u4E0D\u77E5\u540D\u8868\u60C52"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b67879a6d45f71e41a73f09b867c8725
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u7EF7\u5E26_\u751F\u6C14"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5a93460516e4f44b9e62f873eae1e1e
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd6540b699c750e42ac1b14441d94376
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4f730d332806554f9b118bbdf40d88c
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u7D27\u5F20"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eeaa25d7fb033354a89ab61f3770a20a
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5ACC\u5F03"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fea61ded085fcb64fa578e110c74f3cd
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5BB3\u6015"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff95381d4e709b141bceebd27233c9fe
+    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/child"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e05a7e7d0a4767d4dbd8053c426fbfd0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 42411ed32d616e34f89f18bdc49e449a, type: 2}
+    - {fileID: 11400000, guid: 1ad3e96204326364cb948dcb9e047042, type: 2}

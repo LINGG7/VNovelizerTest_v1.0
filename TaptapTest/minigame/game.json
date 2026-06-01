@@ -1,0 +1,43 @@
+
+{
+  "deviceOrientation" : "landscape",
+  "appId"             : "852739",
+  "companyName"       : "DefaultCompany",
+  "productName"       : "\u5723\u8BFA\u6C40\u4E4B\u68A6",
+  "productVersion"    : "1.0",
+  "buildDescription"  : "",
+  "isWasmSplitSupport" : false,
+  "convertScriptVersion" : "0.1.1",
+  "convertToolVersion"   : "2.0.18",
+  "openDataContext"      : "open-data",
+  "iOSHighPerformance"   : true,
+  "iOSHighPerformance+"  : false,
+  "subpackages"          : [
+    {
+      "name" : "wasmcode",
+      "root" : "wasmcode/"
+    },
+    {
+      "name" : "data-package",
+      "root" : "data-package/"
+    }
+  ],
+  "parallelPreloadSubpackages" : [
+    {
+      "name" : "wasmcode"
+    },
+    {
+      "name" : "data-package"
+    }
+  ],
+  "plugins"                    : {
+    "UnityPlugin" : {
+      "contexts" : [
+        {
+          "type" : "isolatedContext"
+        }
+      ]
+    }
+  },
+  "workers"                    : "workers"
+}

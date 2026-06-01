@@ -177,6 +177,13 @@ MonoBehaviour:
     - VNovelizerRes/VNPrefabs/UI
     - VNovelizerRes/VNPrefabs/UI/Gallery
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c33eafd693616845b0670d0bc26b580
+    m_Address: VNovelizerRes/ExcelVNScripts/~$sntzm_clark2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3d4a04a38985e2f4d98203b3168d587f
     m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Scene/SceneSlot
     m_ReadOnly: 0
@@ -322,6 +329,13 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/VFX
     - VNovelizerRes/VFX/Partical
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 704c44cbc1469da4b94f70bf0c2ecbfc
+    m_Address: VNovelizerRes/ExcelVNScripts/~$sntzm_david4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 719a51ce48ea1364fac64819ba579d36
     m_Address: VNovelizerRes/VNPrefabs/UI/VNGamePlay/Char_Right
@@ -513,6 +527,13 @@ MonoBehaviour:
     - VNovelizerRes/VNPrefabs
     - VNovelizerRes/VNPrefabs/UI
     - VNovelizerRes/VNPrefabs/UI/History
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a657f49ed1c915447a9aceb6e03b25eb
+    m_Address: VNovelizerRes/ExcelVNScripts/~$sntzm_emily
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a7a602b092ab0c24faf11842f5937c2d
     m_Address: VNovelizerRes/VNPrefabs/UI/TransitionManagerRoot

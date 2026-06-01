@@ -101,6 +101,13 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d31c48ea04c0c640b0efcce25a8c9af
+    m_Address: VNovelizerRes/Backgrounds/sntzm_emily_29
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2f3a2575c2ec3a34f88af0b6ccb22233
     m_Address: VNovelizerRes/Backgrounds/sntzm_main1_7
     m_ReadOnly: 0
@@ -628,6 +635,13 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d3675e49a6505a3429a0bf2664cbc70d
     m_Address: VNovelizerRes/Backgrounds/sntzm_david1_64
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3834efcfaba85344acb83b05bba70b4
+    m_Address: VNovelizerRes/Backgrounds/sntzm_emily_30
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes

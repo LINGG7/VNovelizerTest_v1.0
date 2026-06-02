@@ -56,6 +56,7 @@ public class MusicPage : MonoBehaviour
             if (musicListScrollView != null)
             {
                 musicListContent = musicListScrollView.content;
+                ConfigureMusicListScrollView();
             }
         }
         
@@ -278,6 +279,133 @@ public class MusicPage : MonoBehaviour
                 CreateMusicSlot(music, i);
             }
         }
+
+        RefreshMusicListLayout();
+        StartCoroutine(RefreshMusicListLayoutNextFrame());
+    }
+
+    private void ConfigureMusicListScrollView()
+    {
+        if (musicListScrollView == null)
+        {
+            return;
+        }
+
+        musicListScrollView.horizontal = false;
+        musicListScrollView.vertical = true;
+        musicListScrollView.movementType = ScrollRect.MovementType.Elastic;
+
+        RectTransform viewport = musicListScrollView.viewport;
+        if (viewport != null)
+        {
+            viewport.anchorMin = Vector2.zero;
+            viewport.anchorMax = Vector2.one;
+            viewport.offsetMin = Vector2.zero;
+            viewport.offsetMax = Vector2.zero;
+        }
+
+        RectTransform contentRect = musicListScrollView.content;
+        if (contentRect != null)
+        {
+            contentRect.anchorMin = new Vector2(0f, 1f);
+            contentRect.anchorMax = new Vector2(1f, 1f);
+            contentRect.pivot = new Vector2(0.5f, 1f);
+            contentRect.anchoredPosition = Vector2.zero;
+        }
+    }
+
+    private void RefreshMusicListLayout()
+    {
+        if (musicListScrollView == null || musicListContent == null)
+        {
+            return;
+        }
+
+        RectTransform contentRect = musicListContent as RectTransform;
+        if (contentRect == null)
+        {
+            return;
+        }
+
+        Canvas.ForceUpdateCanvases();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(contentRect);
+
+        float contentHeight = CalculateMusicListContentHeight(contentRect);
+        RectTransform viewport = musicListScrollView.viewport;
+        if (viewport != null)
+        {
+            contentHeight = Mathf.Max(contentHeight, viewport.rect.height);
+        }
+
+        contentRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, contentHeight);
+        contentRect.anchoredPosition = Vector2.zero;
+        LayoutRebuilder.ForceRebuildLayoutImmediate(contentRect);
+        musicListScrollView.StopMovement();
+        musicListScrollView.verticalNormalizedPosition = 1f;
+        musicListScrollView.SetLayoutVertical();
+        musicListScrollView.Rebuild(CanvasUpdate.PostLayout);
+    }
+
+    private IEnumerator RefreshMusicListLayoutNextFrame()
+    {
+        yield return null;
+        RefreshMusicListLayout();
+    }
+
+    private float CalculateMusicListContentHeight(RectTransform contentRect)
+    {
+        VerticalLayoutGroup layoutGroup = contentRect.GetComponent<VerticalLayoutGroup>();
+        float height = 0f;
+        float spacing = 0f;
+        int childCount = musicSlots.Count;
+
+        if (layoutGroup != null)
+        {
+            height += layoutGroup.padding.top + layoutGroup.padding.bottom;
+            spacing = layoutGroup.spacing;
+        }
+
+        height += GetMusicSlotHeight() * childCount;
+
+        if (childCount > 1)
+        {
+            height += spacing * (childCount - 1);
+        }
+
+        return height;
+    }
+
+    private float GetMusicSlotHeight()
+    {
+        RectTransform prefabRect = musicSlotPrefab != null ? musicSlotPrefab.GetComponent<RectTransform>() : null;
+        if (prefabRect != null && prefabRect.rect.height > 0f)
+        {
+            return prefabRect.rect.height;
+        }
+        if (prefabRect != null && prefabRect.sizeDelta.y > 0f)
+        {
+            return prefabRect.sizeDelta.y;
+        }
+
+        foreach (MusicSlot slot in musicSlots)
+        {
+            if (slot == null)
+            {
+                continue;
+            }
+
+            RectTransform slotRect = slot.GetComponent<RectTransform>();
+            if (slotRect != null && slotRect.rect.height > 0f)
+            {
+                return slotRect.rect.height;
+            }
+            if (slotRect != null && slotRect.sizeDelta.y > 0f)
+            {
+                return slotRect.sizeDelta.y;
+            }
+        }
+
+        return 50f;
     }
     
     /// <summary>

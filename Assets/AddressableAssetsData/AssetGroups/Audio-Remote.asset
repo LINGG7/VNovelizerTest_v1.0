@@ -17,8 +17,197 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 6878078505151924bb86ba7c46b71123
   m_SerializeEntries:
-  - m_GUID: 89ce8a28ca4a4d742b72902e1197c959
-    m_Address: VNovelizerRes/Audio/Music/BGM/piano lofi
+  - m_GUID: 05323f0e35b106845b68f438f90bad88
+    m_Address: VNovelizerRes/Audio/Music/BGM/suspense-tense-background-music
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0671bdf21687b2c4a9a97c00a26443e7
+    m_Address: VNovelizerRes/Audio/Music/BGM/sorrowful
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0decab0ff45c9dd49b155899e9781f72
+    m_Address: VNovelizerRes/Audio/Music/BGM/oceanframemusic-horror-background-music
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21d06740f0023bd4daeb339f3fe571b2
+    m_Address: VNovelizerRes/Audio/Music/BGM/litesaturation-horror
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 293ce5a3815e7ab47af5c184e56c48e6
+    m_Address: VNovelizerRes/Audio/Music/BGM/suspence-horror
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a2da6e98cf39e04fb29ee89de19d7ea
+    m_Address: VNovelizerRes/Audio/Music/BGM/leberch-spooky-piano
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fdea51b0af04f147a24e0dc809c07cb
+    m_Address: VNovelizerRes/Audio/Music/BGM/monume-guitar-beat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56d8af7ccb096fa4a943e8a487bc70cc
+    m_Address: VNovelizerRes/Audio/Music/BGM/alex-morgan-dark-suspense-thriller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6304be359f80eff4184842b659c479dc
+    m_Address: VNovelizerRes/Audio/Music/BGM/universfield-suspenseful-dark-atmosphere-231510
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7431216576b6abd40a69306fbd21a73c
+    m_Address: VNovelizerRes/Audio/Music/BGM/horror-free
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 749f177aa2bf4044ba79374fcc9e1498
+    m_Address: VNovelizerRes/Audio/Music/BGM/suspense-tensions
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d81a1a6afeaff442840f23afa643214
+    m_Address: VNovelizerRes/Audio/Music/BGM/audioatlant-total-war-epic-action-cinematic-trailer-main
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d9a1ef916efb2a4da61748449c50dad
+    m_Address: VNovelizerRes/Audio/Music/BGM/suspense2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa5b34ae051fc0042b7bfae67afe5695
+    m_Address: VNovelizerRes/Audio/Music/BGM/the-mountain-horror
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad9093352837b2749aba65423d7e62b8
+    m_Address: VNovelizerRes/Audio/Music/BGM/suspence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af7e8646528056744ba867be6ddb0c70
+    m_Address: VNovelizerRes/Audio/Music/BGM/the-mountain-hope-background
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4292e093ff05354ea10964d93d8c8f8
+    m_Address: VNovelizerRes/Audio/Music/BGM/yy1-69
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b986e9b6cc5068d40b4db1b0e95119aa
+    m_Address: VNovelizerRes/Audio/Music/BGM/suspense-tension-background-music
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bae1ad302bad8e7479d134773c034dbc
+    m_Address: VNovelizerRes/Audio/Music/BGM/leberch-suspense
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: beeeb051dfeb15447b5c6b0688dacb7a
+    m_Address: VNovelizerRes/Audio/Music/BGM/ikoliks_aj-sad-sorrowful-documentary-music
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc8aca382d5bd6d4fb061e0803b45ba7
+    m_Address: VNovelizerRes/Audio/Music/BGM/leberch-suspense2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df135670b92d56a4db2bdb5a09681a46
+    m_Address: VNovelizerRes/Audio/Music/BGM/leberch-horror-night
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes

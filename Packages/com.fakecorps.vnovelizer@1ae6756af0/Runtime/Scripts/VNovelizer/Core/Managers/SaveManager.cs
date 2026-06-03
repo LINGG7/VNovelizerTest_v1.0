@@ -271,7 +271,7 @@ public class SaveManager : BaseManager<SaveManager>
         return MAX_SAVE_SLOTS;
     }
 
-    public void CaptureCurrentScreen()
+    public void CaptureCurrentScreen(System.Action onCaptured = null)
     {
         if (_captureCoroutine != null)
         {
@@ -285,10 +285,10 @@ public class SaveManager : BaseManager<SaveManager>
             _tempScreenshot = null;
         }
 
-        _captureCoroutine = MonoManager.GetInstance().StartCoroutine(CaptureCurrentScreenAtEndOfFrame());
+        _captureCoroutine = MonoManager.GetInstance().StartCoroutine(CaptureCurrentScreenAtEndOfFrame(onCaptured));
     }
 
-    private IEnumerator CaptureCurrentScreenAtEndOfFrame()
+    private IEnumerator CaptureCurrentScreenAtEndOfFrame(System.Action onCaptured)
     {
         yield return new WaitForEndOfFrame();
 
@@ -303,6 +303,7 @@ public class SaveManager : BaseManager<SaveManager>
         }
 
         _captureCoroutine = null;
+        onCaptured?.Invoke();
     }
 
     public string SaveCachedScreenshot(int slotIndex)

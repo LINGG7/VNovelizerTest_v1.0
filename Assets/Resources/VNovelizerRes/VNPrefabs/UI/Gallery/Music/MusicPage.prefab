@@ -280,11 +280,11 @@ PrefabInstance:
     - target: {fileID: 3202370781642925734, guid: f533f269da3cf304eb71740fa8bc9e5f, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 6bd5ae1d8bfb9744f9a6ddea80dfbb88, type: 2}
+      objectReference: {fileID: 11400000, guid: c56a60d5a5eaedf4382262aa9642a424, type: 2}
     - target: {fileID: 3202370781642925734, guid: f533f269da3cf304eb71740fa8bc9e5f, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 6290952144785465095, guid: 6bd5ae1d8bfb9744f9a6ddea80dfbb88, type: 2}
+      objectReference: {fileID: -7279700884204958845, guid: c56a60d5a5eaedf4382262aa9642a424, type: 2}
     - target: {fileID: 3697966867125639467, guid: f533f269da3cf304eb71740fa8bc9e5f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

@@ -1,5 +1,5 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
-1,旁白,hide,,,,,,,false,"bgfade(sntzm_yy_1,1)",源类型=type:exeBC; 层级=0
+1,旁白,hide,,,,,,yy1-69,false,"bgfade(sntzm_yy_1,1)&unlockmusic(Music8)",源类型=type:exeBC; 层级=0
 2,旁白,hide,,,,你选择留在同伴身边，先听听总部究竟有何指示。可当那只飞蛾从你眼皮底下彻底消失的瞬间，一种怅然若失的遗憾感却悄然缠上了你的心头。,,,,,"源类型=type:txt_pb; 层级=1; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 3,旁白,hide,,,,随着通讯中的电磁杂音渐渐散去，一个清冷的女声重新打破了这短暂的沉寂。,,,,,源类型=type:txt_pb; 层级=2
 4,索菲亚,Sophia_headcut,,,,能听到吗？这里是FBI技术支援部......我是你们本次任务的联络员，代号“夜莺”。,,,,,源类型=type:txt_Sophia; 层级=3

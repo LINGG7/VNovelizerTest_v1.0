@@ -1,4 +1,8 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+60,旁白,,,,,“哒哒哒——”,,leberch-suspense2,,unlockmusic(Music9),
+61,克拉克,,,,,？！,,,,,
+62,大卫,,,,,？！,,,,,
+63,你,,,,,？！,,,,,
 2,旁白,hide,,,,三束手电同时照向声音的来源，一只瘦小的人影一闪而过，如鬼魅般消失在了幽暗的走廊尽头。,,,false,"bgfade(sntzm_main3_1,1)",源类型=type:txt_pb; 层级=0
 3,旁白,hide,,,,是幸存者？还是比那更糟的东西......,,,,,源类型=type:txt_pb; 层级=1
 4,旁白,hide,Clark_default,,David_default,容不得你们进行过多的思考，克拉克一马当先，转眼间便已融入走廊的阴影。大卫的反应则稍慢半拍，他的配枪此刻还生硬地插在腰间的皮套里。,,,,"bgfade(sntzm_main3_6,1)&charfadein(L,1)&charmove(L,0,-100,1)&charfadeout(L,1)&charfadein(R,1)&unlockscene(main3_6)","源类型=type:txt_pb; 层级=2; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""找飞蛾"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
@@ -22,10 +26,10 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 22,旁白,hide,,,,可就在这时，一只大手突然猛地按住你的脑门，似乎发现了你这个意料之外的偷听者。你只觉有股香甜的气味自胶皮手套涌入口鼻，意识便再度坠入那片无边的混沌。,black,,,"shake(screen,0.25,20)",源类型=type:txt_pb; 层级=20
 23,旁白,hide,,,,你的视野在一片原始黑暗中浮沉，光与影的边界早已消失，唯有令人抓狂的耳鸣，成为了这封闭空间中唯一还在活动的概念。,,,,,源类型=type:txt_pb; 层级=21
 24,旁白,hide,,,,无数的虚影由远及近，像一张张播放着现实影像的、蠕动的网，将你偏离的灵魂重新捕获。,,,,,源类型=type:txt_pb; 层级=22
-25,旁白,hide,,,,随着一道刺眼的寒光将黑暗彻底撕裂，原本折磨着你的耳鸣，也逐渐化作一道清晰的人声——那是克拉克·海尔特的声音，带着满溢的担忧与关切。,,,,,"源类型=type:txt_pb; 层级=23; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""克拉克线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+25,旁白,hide,,,,随着一道刺眼的寒光将黑暗彻底撕裂，原本折磨着你的耳鸣，也逐渐化作一道清晰的人声——那是克拉克·海尔特的声音，带着满溢的担忧与关切。,,stop,,,"源类型=type:txt_pb; 层级=23; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""克拉克线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 26,克拉克,hide,,,,亚当？亚当？！,,,,"shake(screen,0.5,2)&bgfade(sntzm_main3_26,1)",源类型=type:txt_Clark; 层级=24
 27,旁白,hide,,,,他用力摇晃着你略显僵硬的身体，试图将你从溺水般的混沌中拽出来。当涣散的双眸重新恢复焦距，地面冷硬的触感一下子将你从方才的噩梦中惊醒。,,,,,源类型=type:txt_pb; 层级=25
-28,旁白,hide,,,,你猛地弹起身子，发现自己正身处一间狭小的病房之内。,,,,"bgfade(sntzm_main3_28,1)&unlockscene(main3_28)",源类型=type:txt_pb; 层级=26
+28,旁白,hide,,,,你猛地弹起身子，发现自己正身处一间狭小的病房之内。,,the-mountain-horror,,"bgfade(sntzm_main3_28,1)&unlockscene(main3_28)&unlockmusic(Music10)",源类型=type:txt_pb; 层级=26
 29,旁白,hide,,,,先前追逐的黑影早已消失不见，只有远处隐约传来的滴水声，在一片死寂中格外清晰。,,,,,源类型=type:txt_pb; 层级=27
 30,旁白,hide,,,,克拉克见你终于有了反应，紧绷的神经稍稍放松下来，但那对始终紧锁的眉头，却让你心头涌上一股不祥的预感。,,,,,源类型=type:txt_pb; 层级=28
 31,克拉克,hide,Clark_default,,,刚刚发生了什么？我看到你突然就昏死了过去，幸好不是脸部着地，走廊上全是碎玻璃渣子。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=29
@@ -49,10 +53,10 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 49,旁白,hide,,,,可就在这时，一只大手突然猛地按住你的脑门，似乎发现了你这个意料之外的偷听者。你只觉有股香甜的气味自胶皮手套涌入口鼻，意识便再度坠入那片无边的混沌。,black,,,"shake(screen,0.25,20)",源类型=type:txt_pb; 层级=21
 50,旁白,hide,,,,你的视野在一片原始黑暗中浮沉，光与影的边界早已消失，唯有令人抓狂的耳鸣，成为了这封闭空间中唯一还在活动的概念。,,,,,源类型=type:txt_pb; 层级=22
 51,旁白,hide,,,,无数的虚影由远及近，像一张张播放着现实影像的、蠕动的网，将你偏离的灵魂重新捕获。,,,,,源类型=type:txt_pb; 层级=23
-52,旁白,hide,,,,随着一道刺眼的寒光彻底撕裂黑暗，原本折磨着你的耳鸣也逐渐化作一道清晰的人声——那是来自大卫的急切的呼喊。,,,,,"源类型=type:txt_pb; 层级=24; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""大卫线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+52,旁白,hide,,,,随着一道刺眼的寒光彻底撕裂黑暗，原本折磨着你的耳鸣也逐渐化作一道清晰的人声——那是来自大卫的急切的呼喊。,,stop,,,"源类型=type:txt_pb; 层级=24; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""大卫线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 53,大卫,hide,,,,亚当！喂，你个蠢小子！,,,,"shake(screen,0.5,2)&bgfade(sntzm_main3_53,1)",源类型=type:txt_David; 层级=25
 54,旁白,hide,,,,他用力摇晃着你略显僵硬的身体，试图将你从溺水般的混沌中拽出来。当涣散的双眸重新恢复焦距，地面冷硬的触感一下子将你从方才的噩梦中惊醒。,,,,,源类型=type:txt_pb; 层级=26
-55,旁白,hide,,,,你猛地弹起身子，发现自己正身处一间狭小的病房之内。,,,,"bgfade(sntzm_main3_28,1)&unlock(main3_28)",源类型=type:txt_pb; 层级=27
+55,旁白,hide,,,,你猛地弹起身子，发现自己正身处一间狭小的病房之内。,,the-mountain-horror,,"bgfade(sntzm_main3_28,1)&unlockscene(main3_28)&unlockmusic(Music10)",源类型=type:txt_pb; 层级=27
 56,旁白,hide,,,,先前追逐的黑影早已消失无踪，只有远处隐约传来的滴水声，在一片死寂中格外清晰。,,,,,源类型=type:txt_pb; 层级=28
 57,旁白,hide,,,,大卫见你终于有了反应，脸上焦躁的神情稍稍缓和，但他始终紧咬的牙关，却让你心头涌上一股不祥的预感。,,,,,源类型=type:txt_pb; 层级=29
 58,大卫,hide,David_default,,,你这家伙，到底在搞什么飞机？怎么突然就晕过去了，就算昨晚喝得再多，也不至于在这里发作吧。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=30

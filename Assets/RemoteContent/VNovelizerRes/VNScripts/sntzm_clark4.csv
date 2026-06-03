@@ -2,7 +2,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 1,旁白,hide,,,,现在，作为场上唯一的变量，你打算如何帮助克拉克突破僵局？,,,false,,源类型=type:txt_pb; 层级=0
 2,旁白,hide,,,,,,,,choice(以提包作为威胁|jump(3))&choice(掏出泰瑟枪应对|jump(4)),源类型=type:selectBC; 层级=1
 3,旁白,hide,,,,以提包作为威胁,,,,,源类型=type:txt_pb; 层级=2; 选项/备注=试着兵不血刃地阻止战斗; tag=谈判
-5,旁白,hide,,,,看着那只被他轻放在地的提包，你灵机一动。趁着他和克拉克难分难解之际，蹑手蹑脚地挪到它不足一尺的距离。,,,,,源类型=type:txt_pb; 层级=3
+5,旁白,hide,,,,看着那只被他轻放在地的提包，你灵机一动。趁着他和克拉克难分难解之际，蹑手蹑脚地挪到它不足一尺的距离。,,audioatlant-total-war-epic-action-cinematic-trailer-main,,unlockmusic(Music18),源类型=type:txt_pb; 层级=3
 6,旁白,hide,,,,等他在激斗中回过神来，你早已将它抢至手中，冰凉的金属枪口抵着柔软的真皮，仿佛手里拽着的是一件活物。,,,,,源类型=type:txt_pb; 层级=4
 7,你,hide,,,,停手！不然我立刻就崩了她！,,,,,源类型=type:txt_You; 层级=5
 9,旁白,hide,,,,你刻意用了“她”这个人称，正是基于对他先前话语中疯癫描述的敏锐洞察。,,,,,源类型=type:txt_pb; 层级=7
@@ -12,7 +12,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 13,旁白,hide,,,,话音未落，克拉克的手刀便已重重劈在了他的后颈，这是足以放倒一名成年男性的力量，就连眼前这个体质超常的怪物也无法完全抵消它的影响。,,,,,源类型=type:txt_pb; 层级=11
 14,网瘾学徒,hide,,,,呜！,,,,"shake(screen,0.5,5)",源类型=type:txt_Wyxt; 层级=12
 15,旁白,hide,,,,只听他一声惨叫，身体顿时被抽空了所有力量，连同脱手的利刃一起直愣愣地栽倒在地。,,,,,源类型=type:txt_pb; 层级=13
-16,旁白,hide,,,,克拉克立刻压住他的手腕，以极其专业的手法迅速解除了他身上携带的所有武装——刀片、钉枪、麻醉针，每一把沾血的工具都无声放大着这个疯子潜在的危险性。,,,,"bgfade(sntzm_clark4_16,1)",源类型=type:txt_pb; 层级=14
+16,旁白,hide,,,,克拉克立刻压住他的手腕，以极其专业的手法迅速解除了他身上携带的所有武装——刀片、钉枪、麻醉针，每一把沾血的工具都无声放大着这个疯子潜在的危险性。,,leberch-horror-night,,"bgfade(sntzm_clark4_16,1)&unlockmusic(Music19)",源类型=type:txt_pb; 层级=14
 17,旁白,hide,,,,他将它们踢到你脚边，枪口始终瞄准着敌人的后脑勺，时刻提防着他不知何时又会暴起的狂暴。,,,,,源类型=type:txt_pb; 层级=15
 18,克拉克,hide,Clark_angry,,,够了，无论你口中的那些人是谁，我们都不是他们。现在，我要以妨害公务、绑架警员的罪名将你逮捕。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=16
 19,网瘾学徒,hide,Clark_angry,,,哼呵呵哈哈哈哈......,,,,"charfadeout(L,1)",源类型=type:txt_Wyxt; 层级=17
@@ -36,7 +36,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 37,旁白,hide,Clark_default,,,男孩的手指细细摩挲着徽章冰凉的金属轮廓，指尖微微颤抖。黑暗里只能听见他压抑的呼吸声，那点微弱的起伏里，藏着这么多年从来没有说出口的屈辱与恐惧。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=35
 38,旁白,hide,,,,他张了好几次嘴，喉咙里都只能挤出干涩的气音，像是太久没有说出完整的真话，连声带都忘了该如何震动。,,,,jump(62),源类型=type:txt_pb; 层级=36; gotomainline=62
 4,旁白,hide,,,,掏出泰瑟枪应对,,,,,源类型=type:txt_pb; 层级=2; 选项/备注=趁其不备从一旁发动偷袭; tag=电击
-40,旁白,hide,,,,你悄声走到他左侧，卸下泰瑟枪的保险栓，冰凉的枪身贴在掌心，只等着最佳的出手时机。,,,,,源类型=type:txt_pb; 层级=3
+40,旁白,hide,,,,你悄声走到他左侧，卸下泰瑟枪的保险栓，冰凉的枪身贴在掌心，只等着最佳的出手时机。,,audioatlant-total-war-epic-action-cinematic-trailer-main,,unlockmusic(Music18),源类型=type:txt_pb; 层级=3
 41,旁白,hide,,,,男孩此刻所有的感知力都集中在身前的克拉克身上，他像一头闻到血腥味的鲨鱼，凭借灵活的身法绕着克拉克身体不断打转，每一次攻击都阴险地刺向对方流血的伤口，完全没察觉到身后的你已经悄声瞄准了他的身体。,,,,,源类型=type:txt_pb; 层级=4
 42,旁白,hide,,,,交战中的克拉克在注意到你的手势后立刻心领神会，先是一记直刺佯攻迫使他俯身闪躲，随即果断弃刀后撤，拉出一个身位的安全距离。男孩刚察觉到一丝不对，两道带着电流的飞索便已直扑他的后背。,,,,,源类型=type:txt_pb; 层级=5
 43,网瘾学徒,hide,,,,？！,,,,,源类型=type:txt_Wyxt; 层级=6
@@ -45,7 +45,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 46,旁白,hide,,,,只听一声刺耳的噼啪炸响，数万伏的高压电流瞬间顺着导线涌入他的体内，狂暴的电流顺着神经猛地窜遍全身。,,,,,源类型=type:txt_pb; 层级=9
 47,旁白,hide,,,,即便是经过改造的身体，也在这远超人类承受极限的剧烈刺激下瞬间失控。疯狂的抽搐瞬间攫住了他每一块肌肉，小臂以违背骨骼结构的角度怪异扭曲着，像是被高压线强行拉扯的木偶。,,,,,源类型=type:txt_pb; 层级=10
 48,旁白,hide,,,,原本紧绷的身躯瞬间软了下来，握刀的手指不受控制地骤然松开，美工刀“当啷”一声滑落在地上，刺耳的金属碰撞声在狭窄的空间里反复回荡。,,,,,源类型=type:txt_pb; 层级=11
-49,旁白,hide,,,,在电流切断的瞬间，克拉克立刻上前压住他的手腕，以极其专业的手法迅速解除了他身上携带的所有武装——刀片、钉枪、麻醉针，每一把沾血的工具都无声放大着这个疯子潜在的危险性。,,,,"bgfade(sntzm_clark4_16,1)",源类型=type:txt_pb; 层级=12
+49,旁白,hide,,,,在电流切断的瞬间，克拉克立刻上前压住他的手腕，以极其专业的手法迅速解除了他身上携带的所有武装——刀片、钉枪、麻醉针，每一把沾血的工具都无声放大着这个疯子潜在的危险性。,,leberch-horror-night,,"bgfade(sntzm_clark4_16,1)&unlockmusic(Music19)",源类型=type:txt_pb; 层级=12
 50,旁白,hide,,,,他将它们踢到你脚边，枪口始终瞄准着敌人的后脑勺，时刻提防着他不知何时又会暴起的狂暴。,,,,,源类型=type:txt_pb; 层级=13
 51,旁白,hide,,,,然而，不知是因为药物改造让他对电流的耐受力远胜常人，还是刚刚那一电过于痛苦，男孩既没有立刻失去意识，也没有如之前那般奋起反抗。而是像一只被家猫踩断尾巴的，吓坏的老鼠，颤抖着蜷缩在角落。,,,,,源类型=type:txt_pb; 层级=14
 52,网瘾学徒,hide,,,,不！不要再来了！先生......求求你们，别再对我用那个......,,,,,源类型=type:txt_Wyxt; 层级=15
@@ -58,7 +58,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 59,网瘾学徒,hide,,,,哼呵呵哈哈哈哈......,,,,,源类型=type:txt_Wyxt; 层级=22
 60,网瘾学徒,hide,,,,当初他们就是伪装成警察把我抓去那个鬼地方的......,,,,,源类型=type:txt_Wyxt; 层级=23
 61,旁白,hide,,,,他往地上啐了口血沫，那股咬牙切齿的恨意仿佛化为实质，在他空洞的眼窝中凝聚成型。,,,,,源类型=type:txt_pb; 层级=24
-62,网瘾学徒,hide,wy_dm,,,他们都叫我小鬼，因为我是那群孩子里最矮的那个。,,,,"charfadein(L,1)",源类型=type:txt_Wyxt; 层级=25
+62,网瘾学徒,hide,wy_dm,,,他们都叫我小鬼，因为我是那群孩子里最矮的那个。,,suspense-tense-background-music,,"charfadein(L,1)&unlockmusic(Music20)",源类型=type:txt_Wyxt; 层级=25
 63,网瘾学徒,hide,wy_dm,,,自从我们被送进那所机构的第一天起，羞辱和暴力便成了家常便饭。,,,,,源类型=type:txt_pb; 层级=26
 64,旁白,hide,wy_dm,,,男孩费力地扭了扭头，好不容易将那块黑色的兜帽甩下来，露出脖颈上一圈深浅不一的淤青，像被虫子啃食后留下的丑陋狰狞，每一块红肿都细致地呈现着这块皮肤曾经承受过何等的暴力。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=27
 65,网瘾学徒,hide,wy_w,,,那些人管这个叫.......“强制矫正”。实际就是让一群穿着军装的教官天天对着我们拳打脚踢。,,,,"charfadein(L,1)",源类型=type:txt_Wyxt; 层级=28

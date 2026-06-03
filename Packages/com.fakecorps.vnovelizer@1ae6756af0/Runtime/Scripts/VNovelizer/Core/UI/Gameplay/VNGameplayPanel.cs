@@ -822,11 +822,7 @@ public class VNGameplayPanel : BasePanel
         }
         else
         {
-            SaveManager.GetInstance().CaptureCurrentScreen();
-            UIManager.GetInstance().ShowPanel<SaveLoadPanel>("SaveLoadPanel", VNProjectConfig.Instance.UI_SaveLoadPath, E_UI_Layer.Top, (panel) =>
-            {
-                panel.SetMode(SaveLoadPanel.Mode.Save);
-            });
+            OpenSavePanelAfterScreenshot();
         }
     }
 
@@ -1662,10 +1658,23 @@ public class VNGameplayPanel : BasePanel
             return;
         }
 
-        SaveManager.GetInstance().CaptureCurrentScreen();
-        UIManager.GetInstance().ShowPanel<SaveLoadPanel>("SaveLoadPanel", VNProjectConfig.Instance.UI_SaveLoadPath, E_UI_Layer.Top, (panel)=>
+        OpenSavePanelAfterScreenshot();
+    }
+
+    private void OpenSavePanelAfterScreenshot()
+    {
+        SaveManager.GetInstance().CaptureCurrentScreen(() =>
         {
-            panel.SetMode(SaveLoadPanel.Mode.Save);
+            if (this == null || !isActiveAndEnabled)
+                return;
+
+            if (!GameStateManager.GetInstance().CanOpenPanel(GameState.SaveLoad))
+                return;
+
+            UIManager.GetInstance().ShowPanel<SaveLoadPanel>("SaveLoadPanel", VNProjectConfig.Instance.UI_SaveLoadPath, E_UI_Layer.Top, (panel) =>
+            {
+                panel.SetMode(SaveLoadPanel.Mode.Save);
+            });
         });
     }
 

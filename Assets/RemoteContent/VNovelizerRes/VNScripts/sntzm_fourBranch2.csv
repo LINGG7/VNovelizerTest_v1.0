@@ -1,6 +1,6 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
 1,旁白,hide,,,,,,,false,,源类型=type:txt_pb; 层级=0
-2,旁白,hide,,,,子弹擦着杰森的肩膀飞了出去，钉在了他身后潮湿发霉的墙面上，溅起一片带着腥气的墙灰。一声惊叫冲出了他的喉咙，伴随着肌肉的痉挛，形成一种诡异的合奏。,,,,"bgfade(sntzm_fourBranch2_2,1)",源类型=type:txt_pb; 层级=1
+2,旁白,hide,,,,子弹擦着杰森的肩膀飞了出去，钉在了他身后潮湿发霉的墙面上，溅起一片带着腥气的墙灰。一声惊叫冲出了他的喉咙，伴随着肌肉的痉挛，形成一种诡异的合奏。,,suspense-tension-background-music,,"bgfade(sntzm_fourBranch2_2,1)",源类型=type:txt_pb; 层级=1
 3,旁白,hide,,,,拜那些往他脑子里动刀的医生所赐，子弹的轨迹，他早已能够看透。但被隐藏在层层面具下的人心，却始终如徘徊于阴影中的幽灵，难以琢磨。,,,,,源类型=type:txt_pb; 层级=2
 4,旁白,hide,,,,他不知道对方何时会开枪，更不知道这个叫做亚当的男人会不会在最后一刻突然改变主意，将枪口对准自己已经千疮百孔的身体。但一切就这么发生了，没有预警、没有提示，只有他自己惊恐的尖叫声回荡在周围的黑暗里。,,,,,源类型=type:txt_pb; 层级=3
 5,旁白,hide,,,,空气仿佛被冻住似的，将在场的所有人都囚禁在这片心照不宣的沉默之中。就像制造了一颗争议性进球的运动员，默默等待着“裁判”的最终表决。,,,,,源类型=type:txt_pb; 层级=4
@@ -31,16 +31,16 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 31,杰森,hide,,wy_w,,所以......收起你们廉价的同情，下次见到你们的时候，我一定......一定会宰了你们！,,,,"charfadeout(M,1)",源类型=type:txt_Js; 层级=29
 32,克拉克,hide,Clark_default,,,杰森！,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=30
 33,旁白,hide,Clark_default,,,克拉克试图抓住他瘦弱的手臂，却因为胳膊上那道被美工刀划出的伤口慢了半拍。,,,,"charfadeout(L,1)&bgfade(sntzm_fourBranch2_33,1)",源类型=type:txt_pb; 层级=31
-34,旁白,hide,,,,可你能明显感觉到，当杰森听到他在身后喊出自己的名字时，那踉跄的脚步明显顿了一瞬，却终究没有回头，只留下越来越远的镣铐碰撞声，渐渐消弭在浓重的黑暗里。,,,,"loadScript(sntzm_ss, 4)",源类型=type:txt_pb; 层级=32; gotomainline=收束
-26,？？？,hide,,,,哼哈哈哈哈。,,,,"bgfade(sntzm_clark5_38,1)","源类型=type:txt_Un; 层级=6; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""问艾米丽"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+34,旁白,hide,,,,可你能明显感觉到，当杰森听到他在身后喊出自己的名字时，那踉跄的脚步明显顿了一瞬，却终究没有回头，只留下越来越远的镣铐碰撞声，渐渐消弭在浓重的黑暗里。,,stop,,"loadScript(sntzm_ss, 4)",源类型=type:txt_pb; 层级=32; gotomainline=收束
+26,？？？,hide,,,,哼哈哈哈哈。,,suspense-tension-background-music,,"bgfade(sntzm_clark5_38,1)","源类型=type:txt_Un; 层级=6; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""问艾米丽"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 35,旁白,hide,,,,只听那粗哑的笑声顺着老旧的音响滚了出来，震得音响上的灰尘簌簌往下掉。,,,,,源类型=type:txt_pb; 层级=7
 36,？？？,hide,,,,亚当，你知道什么样的小聪明最不招人喜欢吗？,,,,,源类型=type:txt_Un; 层级=8
 37,？？？,hide,,,,就是明明被看得清清楚楚，还要装作没人知道，把别人当成傻子耍。,,,,,源类型=type:txt_Un; 层级=9
 38,？？？,hide,,,,按理来说，我应该再给你一次机会，好好欣赏一下你在原则与私心之间挣扎的样子。不过......,,,,,源类型=type:txt_Un; 层级=10
-39,旁白,hide,,,,“Bang!”,,,,"shake(screen,0.5,5)",源类型=type:txt_pb; 层级=11
+39,旁白,hide,,,,“Bang!”,,stop,,"shake(screen,0.5,5)",源类型=type:txt_pb; 层级=11
 40,旁白,hide,,,,又是一声枪响撕裂了空气，明明只是用广播隔空播放，却比你开的那一枪更加刺耳，仿佛带着一颗生命沉甸甸的重量。,,,,,源类型=type:txt_pb; 层级=12
 41,旁白,hide,,,,你和克拉克同时僵住，连呼吸都跟着漏了半拍。尽管没有任何直接的明示，但每一个人都能猜到那声枪响代表着什么——这颗子弹是送给大卫的。,,,,,源类型=type:txt_pb; 层级=13
-42,克拉克,hide,Clark_angry,,,大卫！回答我！大卫！,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=14
+42,克拉克,hide,Clark_angry,,,大卫！回答我！大卫！,,litesaturation-horror,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=14
 43,？？？,hide,Clark_angry,,,他已经回答不了你任何问题了，克拉克......,,,,"charfadeout(L,1)",源类型=type:txt_Un; 层级=15
 44,旁白,hide,,,,对方的声音幽幽地传了出来，和克拉克急切的呼喊声碰撞在一起，就像一块烧红的烙铁狠狠砸在了冰面上，瞬间蒸腾出带着焦糊味的白雾。,,,,,源类型=type:txt_pb; 层级=16
 45,？？？,hide,,,,谁让你们的小聪明被人发现了呢？这不禁让我想起了某些人，想起了躲在你们身后的那群废物。,,,,,源类型=type:txt_Un; 层级=17
@@ -55,4 +55,4 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 54,旁白,hide,,,,他从容的蛊惑自医院的各个角落里如真菌孢子般四处传播，带着洞穿人心的狡猾和敏锐，仿佛不止你们的身体，就连灵魂也看得一清二楚。,,,,,源类型=type:txt_pb; 层级=26
 55,？？？,hide,,,,来找我吧，克拉克。就在医院的四层，如果动作快的话，说不定还能赶得上给你的朋友收尸呢。,,,,,源类型=type:txt_Un; 层级=27
 56,旁白,hide,,,,你能清晰地感觉到克拉克攥着枪柄的指节猛地一紧，指腹下冰凉的金属仿佛也沾上了他滚烫的怒意，整个后背绷得像一张拉满了的弓，随时都能射出那根要命的箭。,,,,,源类型=type:txt_pb; 层级=28
-57,旁白,hide,,,,但现在绝非沉浸于悲伤和愤怒的时候，大卫的生死还未成定数，而你们也远没有从无处不在的险境中脱离。若因此陷入对方更加险恶的险境，纵使灵魂已升入天堂，大卫也只会死不瞑目。,,,,"loadScript(sntzm_ss, 5)",源类型=type:txt_pb; 层级=29; gotomainline=收束
+57,旁白,hide,,,,但现在绝非沉浸于悲伤和愤怒的时候，大卫的生死还未成定数，而你们也远没有从无处不在的险境中脱离。若因此陷入对方更加险恶的险境，纵使灵魂已升入天堂，大卫也只会死不瞑目。,,stop,,"loadScript(sntzm_ss, 5)",源类型=type:txt_pb; 层级=29; gotomainline=收束

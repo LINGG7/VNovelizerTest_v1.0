@@ -1,12 +1,13 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
 1,旁白,hide,,,,,,,false,,源类型=type:exeBC; 层级=0
-2,旁白,hide,,,,然而，正当你们双双沉浸在这铺天盖地的自责与悲痛中时，那个一直被你们忽视的变量却在身后发出了极轻的抖动声。,,,,,源类型=type:txt_pb; 层级=1
+2,旁白,hide,,,,然而，正当你们双双沉浸在这铺天盖地的自责与悲痛中时，那个一直被你们忽视的变量却在身后发出了极轻的抖动声。,,litesaturation-horror,,,源类型=type:txt_pb; 层级=1
 6,旁白,hide,,,,等你终于回头，并注意到这个微妙的细节时，男孩已经悄无声息地从地上爬起，被铐住的手里紧紧攥着艾米丽的名牌。,,,,,源类型=type:txt_pb; 层级=2
 7,你,hide,,,,杰森......!,,,,,源类型=type:txt_You; 层级=3
 8,旁白,hide,,,,你刚打算上前阻止，不料克拉克却抢先一步，黑洞洞的枪口直指男孩的头颅。但杰森此刻已听不进任何的警告，对于一个盲人而言，朝他肩膀开枪的那声枪响，远比此刻看不见的枪口更有说服力。,,,,,源类型=type:txt_pb; 层级=4
 9,旁白,hide,,,,只见他压低身子，朝着楼梯口的更深处猛地弹射而出。,,,,"bgfade(sntzm_ss_9,1)",源类型=type:txt_pb; 层级=5
 10,旁白,hide,,,,克拉克的手指几乎已经扣在配枪的扳机上，但当他回想起杰森口中那些真实存在过的，地狱般的童年经历时。那颗承载着对大卫悲痛的子弹，终究还是被更深的愧疚卡在了枪膛里。,,,,,源类型=type:txt_pb; 层级=6
-11,克拉克,hide,Clark_default,,,亚当......,,,,"bgfade(sntzm_clark5_38,1)&charfadein(L,1)",源类型=type:txt_Clark; 层级=7
+82,旁白,hide,,,,很快，这只瘦小的人影便再一次消失在了你们的眼前，被楼梯拐角的阴影所吞噬。你知道，他肯定回去找他的“老师”了，那个把他从地狱里捞出来，又不停往他伤口撒盐的魔鬼。,,,,"bgfade(sntzm_clark5_38,1)",源类型=type:txt_pb; 层级=6
+11,克拉克,hide,Clark_default,,,亚当......,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=7
 12,旁白,hide,Clark_default,,,克拉克突然开口了，目光寸步不离地守在杰森消失的方向。,,,,,源类型=type:txt_pb; 层级=8
 61,旁白,hide,Clark_default,,,,,,,,源类型=type:exeBC; 层级=9
 13,克拉克,hide,Clark_default,,,刚才发生的事情，等回到总部，我会向上级如实汇报。,,,,,"源类型=type:txt_Clark; 层级=10; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""开枪"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
@@ -21,7 +22,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 22,旁白,hide,,,,出发吧，夜莺说的应急通道就在上面不远。,,,,jump(24),"源类型=type:txt_pb; 层级=19; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=24"
 81,旁白,hide,,,,（未完待续）,,,,,源类型=type:txt_pb; 层级=20; [ToBeContinued]
 23,旁白,hide,,,,出发吧，无论如何都不能让大卫的牺牲白费。,,,,,"源类型=type:txt_pb; 层级=19; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
-24,旁白,hide,,,,你把重新装好弹的手枪别回后腰，又顺手从地上捡起遗落的背包，将它递还给克拉克。随着两道手电光束在狭长的楼道内的重新亮起，你们一前一后迈开脚步，朝着医院四层的阴影至深之所继续迈进。,,,,,源类型=type:txt_pb; 层级=20
+24,旁白,hide,,,,你把重新装好弹的手枪别回后腰，又顺手从地上捡起遗落的背包，将它递还给克拉克。随着两道手电光束在狭长的楼道内的重新亮起，你们一前一后迈开脚步，朝着医院四层的阴影至深之所继续迈进。,,litesaturation-horror,,,源类型=type:txt_pb; 层级=20
 25,旁白,hide,,,,关于杰森身上的罪与罚，已经暂时告一段落。但这座虚幻剧场中的的漫长游行，才刚刚开始。,,,,jump(81),源类型=type:txt_pb; 层级=21; gotomainline=81
 3,旁白,hide,,,,等你终于回头，并注意到这个微妙的细节，男孩已经悄无声息地从地上爬起，被铐住的手里紧紧攥着那把染血的美工刀。,,,,,源类型=type:txt_pb; 层级=1
 26,你,hide,,,,杰森......!,,,,,源类型=type:txt_You; 层级=2
@@ -60,7 +61,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 58,旁白,hide,,,,思考片刻后，克拉克果断同意了你的观点，如今敌在暗我在明，的确不能被对方牵着鼻子走。就算大卫在下来的途中与杰森先行相遇，在被铐住的情况下他也做不了什么。,,,,,源类型=type:txt_pb; 层级=16
 59,旁白,hide,,,,你们简单对视一眼，便立刻轻手轻脚地沿楼梯向上移动。,,,,,源类型=type:txt_pb; 层级=17
 60,旁白,hide,,,,随着两道手电光束在狭长楼道里重新亮起，这场虚幻剧场中上演的人偶戏，也在无数目光的注视下再次拉开帷幕。,black,,,jump(81),源类型=type:txt_pb; 层级=18; gotomainline=81
-5,你,hide,,,,冷静点，克拉克。既然我们能用开枪的声音糊弄对方，他也同样可能用类似的方法欺骗我们。,,,,,源类型=type:txt_You; 层级=1; gotomainline=6
+5,你,hide,,,,冷静点，克拉克。既然我们能用开枪的声音糊弄对方，他也同样可能用类似的方法欺骗我们。,,litesaturation-horror,,,源类型=type:txt_You; 层级=1; gotomainline=6
 62,你,hide,,,,至少在找到大卫的尸体前，我们都不能轻易断定他已遇难。况且.....,,,,,源类型=type:txt_You; 层级=2
 63,旁白,hide,,,,你回过头，看了眼跪在地上的杰森，眼神中流露出一丝混杂着迁怒与愧疚的复杂的感慨，,,,,,源类型=type:txt_pb; 层级=3
 64,旁白,hide,,,,他始终低着头蜷在那里，刚才那声枪响同样震得他浑身发抖，或许在他尚未泯灭的良知里，也从未想过会以这样的方式搭上一个无辜者的性命。,,,,"bgfade(sntzm_ss_64,1)",源类型=type:txt_pb; 层级=4
@@ -71,7 +72,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 69,克拉克,hide,Clark_default,,,你说得对，现在还不是绝望的时候。无论大卫现在是生还是......死，我们都必须把这件事一查到底。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=9
 70,旁白,hide,Clark_default,,,他极不情愿地说出了那个字，脸上却多出了几分坚决和坦然。,,,,,源类型=type:txt_pb; 层级=10
 71,克拉克,hide,Clark_default,,,事到如今，我们身上背负着的，早就已不只是大卫一人的性命了。,,,,,源类型=type:txt_Clark; 层级=11
-72,旁白,hide,Clark_default,,,你点了点头，脑海中浮现起这里留下的种种令人不安的痕迹，无论是杰森经历的“改造”、艾米丽遭受的虐待，还是更多不知名的受害者在此承受的种种难以想象的折磨。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=12
+72,旁白,hide,Clark_default,,,你点了点头，脑海中浮现起这里留下的种种令人不安的痕迹，无论是杰森经历的“改造”、艾米丽遭受的虐待，还是更多不知名的受害者在此承受的种种难以想象的折磨。,,horror-free,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=12
 73,旁白,hide,,,,随着真相的一步步展开，它们此刻已不再只是基于幻觉和传闻的模糊影子，而是实实在在悬在受害者头上的刀。而揭露并阻止它继续害人，便是你们此刻身为一名探员最为基本的职责。,,,,,源类型=type:txt_pb; 层级=13
 74,旁白,hide,,,,你转向杰森，尽可能要求自己的声音听起来柔和，尽管他也是害大卫被神秘人抓获的罪魁祸首之一，但迁怒一个同样在暗无天日的地狱中深受折磨的受害者，也终究改变不了什么。,,,,,源类型=type:txt_pb; 层级=14
 75,你,hide,,,,杰森，告诉我们，这所精神病院里，到底发生了什么？,,,,,源类型=type:txt_You; 层级=15

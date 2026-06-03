@@ -1,6 +1,6 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
 1,旁白,hide,,,,,,,false,choice(继续探索|jump(2))&choice(先行撤离|jump(3)),源类型=type:selectBC; 层级=0
-2,旁白,hide,,,,继续探索,,,,,源类型=type:txt_pb; 层级=1
+2,旁白,hide,,,,继续探索,,the-mountain-hope-background,,unlockmusic(Music14),源类型=type:txt_pb; 层级=1
 4,旁白,hide,,,,你低头重新看了看手里还沾着血的手术刀，那些医院内深埋的黑暗秘密、被当成实验品活活折磨的恐惧、还有被总部无情抛弃的处境，都在这片刻间顺着刀柄的凉意钻进你的掌心。,,,,,源类型=type:txt_pb; 层级=2
 5,旁白,hide,,,,你该怕吗？当然......前方是数量未知的怪物，身后有不明势力的监视。每一步都像是在滚烫的岩浆里踱步，稍有不慎便会烧得片甲不留。然而......,,,,,源类型=type:txt_pb; 层级=3
 6,姐姐,hide,,,,真相一旦露了头，就不能再让它再缩回黑暗里。,,,,,源类型=type:txt_JJ; 层级=4
@@ -19,8 +19,8 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 19,大卫,hide,David_bandage,,,那就机灵点，不要被这鬼地方的亡魂们吞噬了。要是让克拉克看到我们狼狈的蠢样，我可饶不了你。,,,,,源类型=type:txt_David; 层级=17
 20,旁白,hide,David_bandage,,,你轻笑着点头应下，随即打开手电，沿着一旁的楼梯口向上走去。木质的楼梯已经在经年累月的潮气里泡得发酥，每一步踩上去都发出吱呀的呻吟，像是在替脚下的亡魂们伸冤。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=18
 21,旁白,hide,,,,温热的夜风顺着破碎的窗洞灌了进来，卷着树叶拂动时的轻响擦过你的耳侧，腰间那把手术刀的凉意隔着布料蹭着你的腰，时刻提醒着你这趟旅程绝无回头的可能。,,,,,源类型=type:txt_pb; 层级=19
-93,旁白,hide,,,,（未完待续）,,,,,源类型=type:txt_pb; 层级=20; [ToBeContinued]
-3,旁白,hide,,,,先行撤离,,,,,源类型=type:txt_pb; 层级=1
+93,旁白,hide,,,,（未完待续）,,stop,,,源类型=type:txt_pb; 层级=20; [ToBeContinued]
+3,旁白,hide,,,,先行撤离,,suspense-tension-background-music,,unlockmusic(Music15),源类型=type:txt_pb; 层级=1
 22,旁白,hide,,,,你的指尖无意识地蹭过刀柄上冰冷的钢材，脑海中不自觉地浮现出那只怪物狰狞的脸庞。理性告诉你，贸然前进无异于拿命赌博.,,,,,源类型=type:txt_pb; 层级=2
 23,旁白,hide,,,,相反.......哪怕与总部的联系已经切断，只要能逃到外面，总有办法联络来更多的人手。,,,,,源类型=type:txt_pb; 层级=3
 24,你,hide,,,,你没必要去冒这个险，大卫。,,,,,源类型=type:txt_You; 层级=4
@@ -54,12 +54,12 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 52,旁白,hide,,,,能找到的外援越多，克拉克和大卫脱险的概率才越大。而这一切的前提，便是得有人活着将这个信号设法传递出去。,,,,,源类型=type:txt_pb; 层级=32
 53,旁白,hide,,,,你攥紧那枚带着温度的幸运子弹，将所有翻涌的情绪尽数压进心底，转身顺着另一侧安全通道朝着医院大门的方向快步走去,,,,"bgfade(sntzm_david4_53,1)",源类型=type:txt_pb; 层级=33
 54,旁白,hide,,,,走廊很长，比你进来时长得多。你记得从楼道到大厅只需要穿过三道门，可你已经推开了七扇防火门，每一扇门后都是同样的走廊，同样的墙壁，同样的、黏稠的寂静。,,,,,源类型=type:txt_pb; 层级=34
-55,旁白,hide,,,,不知走了多久，一道白光涌入了你的视野，不是窗外投下的月光，而是从一扇半敞着的门里渗出来的。,,,,"bgfade(sntzm_david4_55,1)",源类型=type:txt_pb; 层级=35
+55,旁白,hide,,,,不知走了多久，一道白光涌入了你的视野，不是窗外投下的月光，而是从一扇半敞着的门里渗出来的。,,oceanframemusic-horror-background-music,,"bgfade(sntzm_david4_55,1)&unlockmusic(Music16)",源类型=type:txt_pb; 层级=35
 56,旁白,hide,,,,正当你疑惑这家废弃的医院为何还通着电之时，那只飞蛾又出现了......,,,,,源类型=type:txt_pb; 层级=36
 57,旁白,hide,,,,不是一只，是很多只。它们从天花板的裂缝里钻出来，从墙壁上的插座孔里挤出来，从地上的排水槽里涌出来。灰白色的翅膀在手电光下扑闪，像一片片正在燃烧的纸灰。,,,,"bgfade(sntzm_david4_57,1)",源类型=type:txt_pb; 层级=37
 58,旁白,hide,,,,它们没有攻击你，只是在飞，朝着那扇透着白光的门不断汇聚，像一群朝圣的信徒。,,,,,源类型=type:txt_pb; 层级=38
 59,旁白,hide,,,,你知道你不该过去，但当你看到门前刻着“B0—01”的，和幻境中几乎完全一致的金属牌匾时，这份警觉最终还是被那份对真相的渴望压了下去。,,,,"bgfade(sntzm_david4_59,1)&unlockscene(david4_59)",源类型=type:txt_pb; 层级=39
-60,旁白,hide,,,,门后是一个房间。相较于你们一直所处的黑暗环境，这里简直亮得刺眼。无影灯的光把你照得无所遁形，空气中弥漫着消毒水和某种香甜的麻醉剂气味。,,,,,源类型=type:txt_pb; 层级=40
+60,旁白,hide,,,,门后是一个房间。相较于你们一直所处的黑暗环境，这里简直亮得刺眼。无影灯的光把你照得无所遁形，空气中弥漫着消毒水和香甜的麻醉剂气味。,,,,,源类型=type:txt_pb; 层级=40
 61,旁白,hide,,,,你眯起眼，看到房间中央有三张手术台，上面各躺着一个男人，头部连接着某种你从未见过的仪器。,,,,"bgfade(sntzm_david4_61,1)",源类型=type:txt_pb; 层级=41
 62,旁白,hide,,,,那些飞蛾落在他们身上，停在他们脸上，让你看不清他们的模样，可你还是忍不住凑近观察，仿佛被某种原始的联系所牵引。,,,,,源类型=type:txt_pb; 层级=42
 63,旁白,hide,,,,“……亚当。”,,,,,源类型=type:txt_pb; 层级=43

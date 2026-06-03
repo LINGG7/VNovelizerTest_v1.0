@@ -1,5 +1,5 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
-1,旁白,hide,,,,当车门打开的刹那，阴冷的山风立刻灌了进来，带着山间特有的潮湿，以及一丝若有若无的、类似消毒水和腐朽木头混合的味道，让你不禁打了个寒颤。,,,false,"bgfade(sntzm_main2_1,1)&unlockscene(main2_1)",源类型=type:txt_pb; 层级=0
+1,旁白,hide,,,,当车门打开的刹那，阴冷的山风立刻灌了进来，带着山间特有的潮湿，以及一丝若有若无的、类似消毒水和腐朽木头混合的味道，让你不禁打了个寒颤。,,suspense-tensions,false,"bgfade(sntzm_main2_1,1)&unlockscene(main2_1)&unlockmusic(Music3)",源类型=type:txt_pb; 层级=0
 2,克拉克,hide,Clark_default,,,我们拿到东西就赶紧撤离，尽量不要在里面逗留太久。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=1
 3,旁白,hide,Clark_default,,,说着，他麻利地拉开后背箱，将装有电筒和配枪的提包丢到你们手里。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=2
 4,旁白,hide,,,,当你打开它的刹那，一股灼热的刺痛感顿时如过电般窜入你的头颅，你的视线像是被烤熟了似的，投射出一幕幕扭曲、怪诞景象.....,,,,,源类型=type:txt_pb; 层级=3
@@ -47,7 +47,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 48,旁白,hide,,,,当锈蚀的铁锁应声断裂的那一刻，你看到一只飞蛾扇动着翅膀穿过了铁门的栏杆，径直飞往了医院深处的黑暗。,,,,"bgfade(sntzm_main2_48,1)",源类型=type:txt_pb; 层级=24
 49,旁白,hide,,,,随着铁锁落地的脆响砸破四周的沉寂，三道强光自手电筒中齐刷刷地亮起，将综合门诊部门前“禁止入内”的告示照得格外刺眼。,,,,"bgfade(sntzm_main2_49,1)",源类型=type:txt_pb; 层级=25
 50,旁白,hide,,,,你做了一个意图明确的战术手势，两位同伴立刻心领神会，随即以克拉克为前锋、你和大卫分守左右两翼的队形，迅速向内挺进。,,,,,源类型=type:txt_pb; 层级=26
-51,旁白,hide,,,,刚一进门，一股刺鼻的霉味便扑面而来，混杂着某种难以形容的甜腻气息，令你们不由自主地捂住口鼻。,,,,,源类型=type:txt_pb; 层级=27
+51,旁白,hide,,,,刚一进门，一股刺鼻的霉味便扑面而来，混杂着某种难以形容的甜腻气息，令你们不由自主地捂住口鼻。,,suspence-horror,,unlockmusic(Music4),源类型=type:txt_pb; 层级=27
 52,旁白,hide,,,,克拉克用手电筒扫过墙壁，那些曾经悬挂着医院简介和医生照片的地方，如今只剩下被火焰熏黑的轮廓，依稀能辨认出“精神科”、“检验科”的字样。,,,,"bgfade(sntzm_main2_52,1)",源类型=type:txt_pb; 层级=28
 53,旁白,hide,,,,大卫则警惕地观察着通往二楼的阶梯，楼梯扶手早已烧至变形，台阶上还残留着几片棕黑色的，疑似氧化后的血迹。,,,,,源类型=type:txt_pb; 层级=29
 54,旁白,hide,,,,你走队伍中间，目光不由自主地被大厅中央那座倾倒的大理石雕像吸引,,,,,源类型=type:txt_pb; 层级=30

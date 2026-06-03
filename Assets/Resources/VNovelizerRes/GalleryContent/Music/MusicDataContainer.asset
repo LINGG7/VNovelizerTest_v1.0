@@ -139,3 +139,9 @@ MonoBehaviour:
     music: {fileID: 8300000, guid: beeeb051dfeb15447b5c6b0688dacb7a, type: 3}
     musicPath: VNovelizerRes/Audio/Music/BGM/ikoliks_aj-sad-sorrowful-documentary-music
     isUnlocked: 0
+  - name: Music22
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 6304be359f80eff4184842b659c479dc, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/universfield-suspenseful-dark-atmosphere-231510
+    isUnlocked: 0

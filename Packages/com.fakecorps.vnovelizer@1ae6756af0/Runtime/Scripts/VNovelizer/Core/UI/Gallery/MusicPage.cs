@@ -10,6 +10,9 @@ using TMPro;
 /// </summary>
 public class MusicPage : MonoBehaviour
 {
+    private const float MusicListBottomScrollPaddingRatio = 0.12f;
+    private const float MusicListMinBottomScrollPadding = 80f;
+
     // 左侧：音乐列表
     private ScrollRect musicListScrollView;
     private Transform musicListContent;
@@ -330,8 +333,8 @@ public class MusicPage : MonoBehaviour
         Canvas.ForceUpdateCanvases();
         LayoutRebuilder.ForceRebuildLayoutImmediate(contentRect);
 
-        float contentHeight = CalculateMusicListContentHeight(contentRect);
         RectTransform viewport = musicListScrollView.viewport;
+        float contentHeight = CalculateMusicListContentHeight(contentRect, viewport);
         if (viewport != null)
         {
             contentHeight = Mathf.Max(contentHeight, viewport.rect.height);
@@ -352,7 +355,7 @@ public class MusicPage : MonoBehaviour
         RefreshMusicListLayout();
     }
 
-    private float CalculateMusicListContentHeight(RectTransform contentRect)
+    private float CalculateMusicListContentHeight(RectTransform contentRect, RectTransform viewport)
     {
         VerticalLayoutGroup layoutGroup = contentRect.GetComponent<VerticalLayoutGroup>();
         float height = 0f;
@@ -370,6 +373,12 @@ public class MusicPage : MonoBehaviour
         if (childCount > 1)
         {
             height += spacing * (childCount - 1);
+        }
+
+        if (childCount > 0)
+        {
+            float viewportHeight = viewport != null ? viewport.rect.height : 0f;
+            height += Mathf.Max(MusicListMinBottomScrollPadding, viewportHeight * MusicListBottomScrollPaddingRatio);
         }
 
         return height;

@@ -1,5 +1,5 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
-1,大卫,hide,David_blood,,,刚才那鬼东西，到底是什么来路，差点没把我半条命折腾没？,,,false,"charfadein(L,1)",源类型=type:txt_David; 层级=0
+1,大卫,hide,David_blood,,,刚才那鬼东西，到底是什么来路，差点没把我半条命折腾没？,,alex-morgan-dark-suspense-thriller,false,"charfadein(L,1)&unlockmusic(Music13)",源类型=type:txt_David; 层级=0
 2,旁白,hide,David_blood,,,你看了看手中还在滴血的手术刀，视线自那片由你创造的猩红不自觉地飘向墙角断裂的线缆，最终定格在那块还在跳动着导弹雨的屏幕上。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=1
 3,旁白,hide,,,,屏幕中央的镜头依旧被无尽炮火锁定，每一次爆炸都让你忍不住想起方才怪物和导弹同步抽搐的模样，就像是在进行......,,,,"bgfade(sntzm_david3_3,1)",源类型=type:txt_pb; 层级=2
 4,你,hide,,,,某种训练？,,,,,源类型=type:txt_You; 层级=3
@@ -47,7 +47,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 47,大卫,hide,David_bandageAngry,,,要我们三个，对付这种怪物，甚至还不止一个。这到底是哪个白痴想出来的作战计划？！,,,,,源类型=type:txt_David; 层级=35
 48,旁白,hide,David_bandageAngry,,,他重重锤在一旁的墙壁上，带起一团纷乱的尘埃，在狭小的房屋内漫无目的地飞扬。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=36
 49,你,hide,,,,现在下结论还为时过早，总部可能也并不知晓里面的内情。现在当务之急是联系那位夜莺小姐，让她赶紧向上级汇报这里的真实情况，申请后续的支援与指令。,,,,,源类型=type:txt_You; 层级=37
-50,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=38
+50,旁白,hide,,,,,,stop,,,源类型=type:txt_pb; 层级=38
 51,旁白,hide,,,,“滋滋——滋滋滋滋”,,,,,源类型=type:txt_pb; 层级=39
 52,旁白,hide,,,,通讯器的电流杂音突兀地刺破屋内的死寂，紧跟着一道熟悉的清冷女声穿透电流，稳稳落在你们耳边。,,,,,源类型=type:txt_pb; 层级=40
 53,索菲亚,Sophia_headcut,,,,是......亚当吗？我正想联系你们......,,,,,源类型=type:txt_Sophia; 层级=41

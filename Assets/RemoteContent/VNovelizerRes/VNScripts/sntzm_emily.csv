@@ -1,7 +1,7 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
 1,旁白,hide,,,,当他们还奔波于与黑帮的明争暗斗，自以为服务于更高的正义时。却有一群本该享有保护的孩子，在法律照不到的阴影里，承受着远超他们想象的非人的折磨。,,,false,,源类型=type:txt_pb; 层级=0
 2,旁白,hide,,,,继续追问细节可能会刺激他敏感的神经，为此你打算优先切换到哪个话题？,,,,"bgfade(sntzm_clark3_2,1)",源类型=type:txt_pb; 层级=1
-3,旁白,hide,,,,,,,,choice(询问关于艾米丽的事情|jump(4))&choice(询问有关大卫的线索|jump(5)),源类型=type:selectBC; 层级=2
+3,旁白,hide,,,,,,stop,,choice(询问关于艾米丽的事情|jump(4))&choice(询问有关大卫的线索|jump(5)),源类型=type:selectBC; 层级=2
 4,旁白,hide,,,,询问关于艾米丽的事情,,,,,源类型=type:txt_pb; 层级=3; tag=问艾米丽
 6,旁白,hide,,,,你深吸一口气，勉强克制住心中复杂的情绪波动，将话口转向另一个他似乎十分在意的话题。,,,,,源类型=type:txt_pb; 层级=4
 7,你,hide,,,,那艾米丽呢？那位B2—15病房的病.......,,,,,源类型=type:txt_You; 层级=5
@@ -24,10 +24,10 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 25,旁白,hide,wy_child,,,皮肉开裂的闷响隔着布料传入耳朵，声音甚至大过了男孩发出的惨叫，粗硬的木棍毫不留情地碾进了他腰侧的筋骨，痛得他声音卡在喉咙里，只能捂着腰蜷在地上不停打滚。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=22
 26,教官A,hide,jiaoguan_default,,,不要想着停，这才第三棍，隔壁班那头小胖猪可比你耐揍多了。,,,,"charfadein(L,1)",源类型=type:txt_pb; 层级=23
 27,旁白,hide,jiaoguan_default,,,男人居高临下地俯视着杰森，投下的巨大黑影完全遮蔽住身后的太阳，也吞噬了地上小小的身体。他缓缓举起手中的木棍，眼神中没有丝毫怜悯，只有看着牲畜哀嚎取乐的麻木和残忍。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=24
-28,艾米丽,hide,,,,！,,,,,源类型=type:txt_Aml; 层级=25
-29,教官A,hide,,,,！？,,,,,源类型=type:txt_Jga; 层级=26
-30,杰森,hide,,,,！！！,,,,,源类型=type:txt_Js; 层级=27
-31,旁白,hide,Emily_default,,,艾米丽猛地扑过去，抢先把那枚小小的录音器踩在了脚底，皮鞋碾着碎石狠狠往下压，试图把它嵌进土里。她直起身挡在教官和那处脚印之间，后背已经惊出了一层冷汗，脸上却强装出一副平日挨训时的漠然样子。,,,,"bgfade(sntzm_emily_14,1)&charfadein(L,1)&charmove(L,0,-200,1)&charfadeout(L,1)",源类型=type:txt_pb; 层级=28
+28,艾米丽,hide,,,,！,black,,,,源类型=type:txt_Aml; 层级=25
+29,教官A,hide,,,,！？,,,,"bgfade(sntzm_emily_29,1)",源类型=type:txt_Jga; 层级=26
+30,杰森,hide,,,,！！！,,,,"bgfade(sntzm_emily_30,1)",源类型=type:txt_Js; 层级=27
+31,旁白,hide,Emily_default,,,艾米丽猛地扑过去，抢先把那枚小小的录音器踩在了脚底，皮鞋碾着碎石狠狠往下压，试图把它嵌进土里。她直起身挡在教官和那处脚印之间，后背已经惊出了一层冷汗，脸上却强装出一副平日挨训时的漠然样子。,,leberch-suspense2,,"bgfade(sntzm_emily_14,1)&charfadein(L,1)&charmove(L,0,-200,1)&charfadeout(L,1)",源类型=type:txt_pb; 层级=28
 32,旁白,hide,,,,然而，这种亡羊补牢的小动作，并不足以避开财狼的眼睛。尽管没有受过真正的军事训练，这些为恐吓，控制学生而被特意招揽的“教官”早已练就了一身鹰犬般灵敏的嗅觉。,,,,,源类型=type:txt_pb; 层级=29
 33,旁白,hide,,,,只见眯着眼绕着艾米丽转了半圈，浑浊的眼睛一寸寸扫过她紧绷的后背，最后落在了她刻意挡在身前的那只脚上。,,,,,源类型=type:txt_pb; 层级=30
 34,教官A,hide,jiaoguan_default,,,挪开。,,,,"charfadein(L,1)",源类型=type:txt_Jga; 层级=31
@@ -51,7 +51,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 52,旁白,hide,,,,教官歪着嘴笑了出声，招呼来不远处站岗的另一个同伙，伸手扯着艾米丽的头发把她拖起来，痛得她发出一声惨叫。,,,,,源类型=type:txt_pb; 层级=49
 53,旁白,hide,,,,他们当时低声聊了些什么，杰森已经不太记得清了。只知道在谈话结束后不久，那两名教官对艾米丽露出了一丝意味不明的邪笑。,,,,,源类型=type:txt_pb; 层级=50
 54,旁白,hide,,,,那张混杂着恶意和贪婪的狰狞笑脸，时至今日依旧是他心中挥之不去的梦魇。,,,,,源类型=type:txt_pb; 层级=51
-55,旁白,hide,,,,一阵寒风刺了进来，吹散了记忆中那带着血腥味的毒辣日光。杰森的身体在地上猛地抽搐了几下，活似一条从热锅中捞出来的，半死的鲢鱼，大口呼吸着现实中干冷的空气。,,,,"bgfade(sntzm_clark3_2,1)",源类型=type:txt_pb; 层级=52
+55,旁白,hide,,,,一阵寒风刺了进来，吹散了记忆中那带着血腥味的毒辣日光。杰森的身体在地上猛地抽搐了几下，活似一条从热锅中捞出来的，半死的鲢鱼，大口呼吸着现实中干冷的空气。,,leberch-horror-night,,"bgfade(sntzm_clark3_2,1)",源类型=type:txt_pb; 层级=52
 56,杰森,hide,wy_w,,,下一次见面的时候，我们已经被转移到了这所医院......如果我当时还只能算作一条咬死过人的疯狗，那艾米丽，呵呵......她已经彻底被他们弄坏掉了。,,,,"charfadein(L,1)",源类型=type:txt_Js; 层级=53
 57,旁白,hide,wy_w,,,他的声音低低的，脸上挂着崩溃的笑意，唇角因极度的愤恨被牙齿咬出鲜血，又在绝望的自嘲中上扬成病态的弧弯。,,,,,源类型=type:txt_pb; 层级=54
 58,杰森,hide,wy_w,,,那副样子我现在都记得，头发被人薅掉了一大半，全身上下没有一块好皮子......就连话都说不利索......,,,,,源类型=type:txt_Js; 层级=55
@@ -62,7 +62,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 63,杰森,hide,,wy_w,,喂！你他妈在做什么......我不需要......！,,,,"charfadein(M,1)",源类型=type:txt_Js; 层级=60
 64,克拉克,hide,Clark_default,wy_w,,我知道，那些疯子动过你的身体，你或许不会因此虚弱而死，但它总会疼的不是吗？,,,,"charfadein(L,1)",源类型=type:txt_pb; 层级=61
 65,旁白,hide,Clark_default,wy_w,,克拉克说着，又用绷带绕着杰森的后脑勺缠了一圈，指尖碰到杰森颧骨上凝固的血痂时微微放缓，生怕碰碎了这个早已被命运碾得千疮百孔的灵魂。,,,,"charfadeout(L,1)&charfadeout(M,1)",源类型=type:txt_pb; 层级=62
-66,旁白,hide,,,,男孩起初有些挣扎，似乎还不习惯这么被人温柔对待，在他仅有的，充满暴力和压迫的前半生里，无论是“学校”里向他拳打脚踢的教官、医院里把他开膛破肚的医生，还是亲手将他送入那片地狱的父母。,,,,,源类型=type:txt_pb; 层级=63
+66,旁白,hide,,,,男孩起初有些挣扎，似乎还不习惯这么被人温柔对待，在他仅有的，充满暴力和压迫的前半生里，无论是“学校”里向他拳打脚踢的教官、医院里把他开膛破肚的医生，还是亲手将他送入那片地狱的父母。,,ikoliks_aj-sad-sorrowful-documentary-music,,unlockmusic(Music21),源类型=type:txt_pb; 层级=63
 67,旁白,hide,,,,他们要么是挥舞着棍棒的施虐者，要么是吓得不敢作声的旁观者。,,,,,源类型=type:txt_pb; 层级=64
 68,旁白,hide,,,,可随着染药的绷带渐渐缠住伤口，那钻心的疼痛感慢慢减轻下来，这种被人关怀和抚慰的松弛感，让他的血液流动也随之平缓下来，不再止不住地向外流淌。他此生只在一个人身上感受过这份温暖......,,,,,源类型=type:txt_pb; 层级=65
 69,杰森,hide,wy_bd,,,艾米丽......,,,,"charfadein(L,1)",源类型=type:txt_Js; 层级=66

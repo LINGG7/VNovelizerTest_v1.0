@@ -16,7 +16,140 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 957ed3cec93c1b74f9ef9e6569dc81e5
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 02db37a794db13f409a8bd8e311dadc2
+    m_Address: VNovelizerRes/VNScripts/sntzm_david4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05b67ed99887f7e498940aebb6707e07
+    m_Address: VNovelizerRes/VNScripts/sntzm_david2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bfd77a8509d6024c89a2a7262d623c8
+    m_Address: VNovelizerRes/VNScripts/sntzm_davidBranch
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dc378dbec74cdb41b0b4331136f9285
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10a86c41878b447449f42d0f35920d77
+    m_Address: VNovelizerRes/VNScripts/sntzm_ss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 208d6e25c991b254ebaf57b9065d3e0d
+    m_Address: VNovelizerRes/VNScripts/sntzm_david3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23506ac24f4415c4886a94211cfe3843
+    m_Address: VNovelizerRes/VNScripts/sntzm_david1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e5b4f5b18cc495428010634786eea21
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41ca17d4cad8c7845b9fe17af528a944
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 452dd4784c92a974597ba5430ebdd563
+    m_Address: VNovelizerRes/VNScripts/sntzm_fourBranch1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4bdfeed0b696e3a419e7fd0fff9e5214
+    m_Address: VNovelizerRes/VNScripts/sntzm_emily
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fb3fda8fbc4fff42b8339a6e1d48cae
+    m_Address: VNovelizerRes/VNScripts/sntzm_main2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80170f9ff16c1044e9b74a9b8a415146
+    m_Address: VNovelizerRes/VNScripts/sntzm_main3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 822254baf538e61438e9011c17c37a0a
+    m_Address: VNovelizerRes/VNScripts/sntzm_fe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87ffa4746d86f59488b401ea11bc8b2b
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9186122887b16da42b1406d80237a460
+    m_Address: VNovelizerRes/VNScripts/sntzm_main1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c89df8405a9c25e49998498ee4701880
+    m_Address: VNovelizerRes/VNScripts/sntzm_yy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1b3633a85c02554ea38206c92f96577
+    m_Address: VNovelizerRes/VNScripts/sntzm_fourBranch2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7058068aa1b7b64fae164fec7ce9763
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e05a7e7d0a4767d4dbd8053c426fbfd0, type: 2}
   m_SchemaSet:

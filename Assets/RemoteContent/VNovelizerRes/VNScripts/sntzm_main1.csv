@@ -1,5 +1,5 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
-1,旁白,hide,,,,那一天，姐姐死了。,black,,false,playparticle(RainEffect),源类型=type:txt_pb; 层级=0; musictype=music_r
+1,旁白,hide,,,,那一天，姐姐死了。,black,sorrowful,false,playparticle(RainEffect)&unlockmusic(Music1),源类型=type:txt_pb; 层级=0; musictype=music_r
 2,旁白,hide,,,,她仰躺在自家门前的水泥地上，四肢以不该有的角度摊开着，就像一株枯弱的麦秆般，“咔”地折断在你眼前。,,,,"bgfade(sntzm_main1_2,1)",源类型=type:txt_pb; 层级=1
 3,旁白,hide,,,,弥留之际，她用尽最后一丝力气将手抬起，越过了你茫然无措的脸，拼命抓住什么似的，指向她坠落的高台。,,,,"bgfade(sntzm_main1_3,1)",源类型=type:txt_pb; 层级=2
 4,旁白,hide,,,,可那里......除了几根靛蓝色的护栏外，便什么也没有留下。,,,,,源类型=type:txt_pb; 层级=3
@@ -8,8 +8,8 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 7,旁白,hide,,,,你跪在地上哭喊着，声音大到整条街都在震动。可她的意识还是在你的哭声中一点一点地散了，像一团握不住的沙，被高台灌下的风彻底卷走，只留下一副残破的躯壳。,,,,"bgfade(sntzm_main1_7,1)&shake(screen,1,5)",源类型=type:txt_pb; 层级=6
 12,旁白,hide,,,,当她离开时，你仿佛看到一只飞蛾，跌跌撞撞地扑向了远处那片烧得正旺的晚霞。,,,,"bgfade(sntzm_main1_12,1)&unlockscene(main1_12)",源类型=type:txt_pb; 层级=7
 8,旁白,hide,,,,,,,,choice(从一阵麻木中醒来|jump(9)),[nohistory]源类型=type:selectBC; 层级=8
-9,旁白,hide,,,,从一阵麻木中醒来,,,,,源类型=type:txt_pb; 层级=9; 选项/备注=感觉身体昏昏沉沉; musictype=music_r
-10,旁白,hide,,,,你从思绪的乱流中回过神来，发现自己正身处一台白色的越野车内,,,,"stopparticle(RainEffect)&bgfade(sntzm_main1_10,1)",源类型=type:txt_pb; 层级=10
+9,旁白,hide,,,,从一阵麻木中醒来,,stop,,,源类型=type:txt_pb; 层级=9; 选项/备注=感觉身体昏昏沉沉; musictype=music_r
+10,旁白,hide,,,,你从思绪的乱流中回过神来，发现自己正身处一台白色的越野车内,,monume-guitar-beat,,"stopparticle(RainEffect)&bgfade(sntzm_main1_10,1)&unlockmusic(Music2)",源类型=type:txt_pb; 层级=10
 13,旁白,hide,,,,这辆福特探险者以40码的高速在山间疾驰着，沿路的颠簸令你胃液中的乙醇翻腾不止，像有人在你体内摇晃一瓶尚未开封的老酒,,,,"bgfade(sntzm_main1_13,1)&unlockscene(main1_13)",源类型=type:txt_pb; 层级=11
 14,旁白,hide,,,,当你的胃和肠子正因酒精的刺激打作一团之时，一只大手适时地拍打起你的背部，力度刚好，节奏也刚好。,,,,,源类型=type:txt_pb; 层级=12
 15,克拉克,hide,Clark_default,,,你昨晚喝得太多了，也许我们该在出发前先给你做个酒精检查。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=13
@@ -53,7 +53,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 70,旁白,hide,,,,它的尖顶刺破天际，破损的窗户如同空洞的眼窝，在夕阳的最后一抹余晖中窥伺着你们的到来。,,,,,源类型=type:txt_pb; 层级=51
 71,旁白,hide,,,,克拉克再度放慢了车速，越野车的引擎发出低沉的轰鸣，像是在小心翼翼地试探着这片被遗忘之地的虚实。,,,,,源类型=type:txt_pb; 层级=52
 72,旁白,hide,,,,大卫则收起了玩笑的神色，目光锐利地扫视着前方越来越清晰的建筑细节，仿佛在寻找着任何可能隐藏的危险信号。,,,,,源类型=type:txt_pb; 层级=53
-73,旁白,hide,,,,车内的气氛瞬间变得紧张起来，只有仪表盘上微弱的光芒，映照着你们三人各怀心事的脸庞。,,,,"loadScript(sntzm_main2, 1)",源类型=type:txt_pb; 层级=54; gotomainline=主线2_1
+73,旁白,hide,,,,车内的气氛瞬间变得紧张起来，只有仪表盘上微弱的光芒，映照着你们三人各怀心事的脸庞。,,stop,,"loadScript(sntzm_main2, 1)",源类型=type:txt_pb; 层级=54; gotomainline=主线2_1
 50,旁白,hide,,,,反唇相讥,,,,,源类型=type:txt_pb; 层级=39; 选项/备注=没人能从你这里占便宜
 52,你,hide,,,,是吗？如果这些药能让我的良心好受些的话，我想我会考虑的。,,,,,源类型=type:txt_You; 层级=40
 59,旁白,hide,,,,你以诙谐的自嘲回应了大卫的调侃，这其中既有玩笑的成分，但也不乏对此刻身心状态的坦率承认。,,,,,源类型=type:txt_pb; 层级=41
